@@ -1,0 +1,15 @@
+Abstract:
+A simple web app that takes a picture, scans it for licence plates, checks if any licence plates belong to police cars, and returns that information to user. Earlier versions had user to type in licence plate manually.
+
+Dependencies:
+PythonAnywhere: HTTPS Python server hosting, OBS: Paid subscription $6.25 monthly. Account created with erik.akerberg37@gmail.com.
+Biluppgifter: Web scraping with ParseHub for licence plate data. API also available, API key: BoEiDFNjlA9A7lpeRECO3lJwAlDZkjMFtJ6iYOGx4MjTWtwclEJ9wmfE63gy, API docs: apidocs.biluppgifter.se
+PlateRecognizer: ALPR API that takes b64-images and returns licence plate. Account created with erik.akerberg37@gmail.com.
+OpenALPR: Used in earlier versions for ALPR, but was only on evaluation licence and paid licence was expensice. Account created with erik@aakerberg.se.
+
+Technologies:
+Flask: Server creation with Python
+Requests: Make API requests with Python
+flask_cors: Handle cross-origin issues with API calls
+mediaDevices: Camera access in JS
+openCV: Computer vision library for Python, used in early development

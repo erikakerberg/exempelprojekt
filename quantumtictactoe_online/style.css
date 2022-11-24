@@ -1,0 +1,113 @@
+.element {
+  box-sizing: border-box;
+  width: 33vh;
+  height: 33vh;
+  border-radius: 50%;
+  float: left;
+}
+#frame {
+  position: absolute;
+  width: 99vh;
+  height: 99vh;
+  left: 50vw;
+  margin-left: -49.5vh;
+  top: 50vh;
+  margin-top: -49.5vh;
+}
+#menu {
+  width: 20vh;
+  height: 20vh;
+  position: absolute;
+  left: 50vw;
+  margin-left: -10vh;
+  top: 50vh;
+  margin-top: -10vh;
+  border: 5px solid white;
+  animation: menuBorder 2s infinite;
+  font-family: fantasy;
+}
+#gameId {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  font-size: 4vh;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  animation: textColor 6s infinite;
+  font-family: inherit;
+  border: none;
+}
+#join {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  height: 30%;
+  background-color: transparent;
+  color: white;
+  animation: textColor 3s infinite;
+  font-family: inherit;
+  font-size: 3vh;
+  border: none;
+}
+#new {
+  position: absolute;
+  top: 70%;
+  width: 100%;
+  height: 30%;
+  background-color: transparent;
+  color: white;
+  animation: textColor 5s infinite;
+  font-family: inherit;
+  font-size: 3vh;
+  border: none;
+}
+#waiting {
+  width: 20vh;
+  height: 20vh;
+  position: absolute;
+  left: 50vw;
+  margin-left: -10vh;
+  top: 50vh;
+  margin-top: -10vh;
+  text-align: center;
+  line-height: 8vh;
+  font-size: 3vh;
+  visibility: hidden;
+  color: white;
+  animation: textColor 7s infinite;
+  font-family: fantasy;
+}
+body {
+  background-color: black;
+}
+@keyframes menuBorder {
+  0% {border: 5px solid red}
+  10% {border: 5px solid blue}
+  20% {border: 5px solid yellow}
+  30% {border: 5px solid green}
+  40% {border: 5px solid pink}
+  50% {border: 5px solid purple}
+  60% {border: 5px solid white}
+  70% {border: 5px solid brown}
+  80% {border: 5px solid orange}
+  90% {border: 5px solid lime}
+  100% {border: 5px solid red}
+}
+@keyframes textColor {
+  0% {color: red}
+  10% {color: blue}
+  20% {color: yellow}
+  30% {color: green}
+  40% {color: pink}
+  50% {color: purple}
+  60% {color: white}
+  70% {color: brown}
+  80% {color: orange}
+  90% {color: lime}
+  100% {color: red}
+}
+
+*:focus {
+  outline: none;
+}

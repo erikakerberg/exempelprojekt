@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+#video {
+  position: absolute;
+  width: 80vw;
+  left: 20vw;
+  height: 90vh;
+  margin: 0;
+}
+
+#canvas {
+  position: absolute;
+  width: 20vw;
+  height: 15vw;
+  background-color: black;
+  top: calc(100vh - 15vw);
+}
+
+#input {
+    width: 100vw;
+    background-color: transparent;
+    height: 10vh;
+}
+
+#text {
+  position: absolute;
+  width: 20vw;
+  height: 10vh;
+  top: 10vh;
+  line-height: 10vh;
+  font-size: 8vh;
+  margin: 0;
+  font-family: monospace;
+  color: white;
+}

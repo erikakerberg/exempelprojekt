@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+#canvas {
+  position: absolute;
+  
+  width: 40vw;
+  height: 25vw;
+  
+  border: 2px solid white;
+  
+  left: 30vw;
+  top: calc(50vh - 12.5vw);
+}
+
+#col {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  left: 47.5vw;
+  top: calc(20vh - 5vw);
+}
+#but {
+  position: absolute;
+  width: 5vw;
+  height: 5vw;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  text-align: center;
+  font-family: sans-serif;
+  top: calc(90vh - 5vw);
+  left: 47.5vw;
+  line-height: 5vw;
+}
